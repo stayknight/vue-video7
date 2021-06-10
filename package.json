@@ -1,8 +1,13 @@
 {
   "name": "vue-video7",
   "description": "A video.js 7 player component for Vue.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "stayknight <stayknight@163.com>",
+  "homepage": "https://github.com/stayknight/vue-video7",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stayknight/vue-video7.git"
+  },
   "license": "MIT",
   "private": false,
   "main": "dist/vue-video7.common.js",
@@ -19,13 +24,6 @@
     "videojs",
     "hls",
     "m3u8"
-  ],
-  "files": [
-    "dist/*",
-    "src/*",
-    "public/*",
-    "*.json",
-    "*.js"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
