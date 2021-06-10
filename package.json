@@ -25,6 +25,13 @@
     "hls",
     "m3u8"
   ],
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-video7 ./src/components/index.js",
