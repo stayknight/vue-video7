@@ -1,4 +1,4 @@
-import VideoPlayer from './index.vue'
+import VideoPlayer from './src/player.vue'
 
 VideoPlayer.install = function (Vue) {
   Vue.component(VideoPlayer.name, VideoPlayer)

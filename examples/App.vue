@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import VideoPlayer from './components/index.js';
+import VideoPlayer from '../index.js';
 
 export default {
   name: 'App',
